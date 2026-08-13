@@ -1,47 +1,79 @@
-# CodeIgniter 4 Framework
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">Project 👋</h1>
 
+<p align="center">
+  <strong></strong>
+</p>
 
-## Aplikasi E-Arsip 
+<p align="center">
+  <a href="https://github.com/antono4/aplikasi-e-arsip-ci-4"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/aplikasi-e-arsip-ci-4-blue?logo=github"></a>
+  <a href="https://antono4.github.io/aplikasi-e-arsip-ci-4/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-2402-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 13:10:03 WIB-lightgrey">
+</p>
 
-e-Arsip adalah arsip yang diciptakan (dibuat atau diterima dan disimpan) dalam format elektronik. Se-sederhana mungkin mudah untuk digunakan penambahan data arsip, koreksi dan pencarian data arsip maupun fisik arsip.
+---
 
-## Fitur Auth
+## 📖 Tentang
 
-- Register
-- Login
-- Logout
+Repository **`aplikasi-e-arsip-ci-4`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/aplikasi-e-arsip-ci-4/`](https://antono4.github.io/aplikasi-e-arsip-ci-4/).
 
-## Fitur Master Data
-- Dashboard
-- Jenis
-- User
-- Unit Kerja
-- Dokumen
+## 🗂️ Struktur Proyek
 
-## Fitur Surat
-- Surat Masuk
-- Surat Keluar
+```
+aplikasi-e-arsip-ci-4/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── app/              # 403 Forbidden  ->  https://antono4.github.io/aplikasi-e-arsip-ci-4/app/
+└── system/              # 403 Forbidden  ->  https://antono4.github.io/aplikasi-e-arsip-ci-4/system/
+```
 
-## Fitur Laporan
-- Download
-- Surat Masuk
-- Surat Keluar
+## 🌐 Sub-Proyek / Demo
 
-## Instalasi
-- PHP 7.4 atau lebih
-- CodeIgniter 4
-- MySQL
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
 
-## Cara Install
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`app`](./app) | [https://antono4.github.io/aplikasi-e-arsip-ci-4/app/](https://antono4.github.io/aplikasi-e-arsip-ci-4/app/) | 403 Forbidden |
+| [`system`](./system) | [https://antono4.github.io/aplikasi-e-arsip-ci-4/system/](https://antono4.github.io/aplikasi-e-arsip-ci-4/system/) | 403 Forbidden |
 
-- Clone atau download source code
-- Para terminal, clone repo github.com/farozy/aplikasi-e-arsip-ci-4.git
-- Jika tidak menggunakan Git, silakan Download Zip dan extract pada direktori web server (misal: xampp/htdocs)
-- Buat databse terlebih dahulu dengan nama e_arsip
-- Kemudian import file sqlnya pada database
+## 🛠️ Teknologi
 
-## Cara Login
-- username : admin
-- password : admin
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `SCSS`
+- `JavaScript`
+- `PHP`
+
+> Total **2402 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/aplikasi-e-arsip-ci-4/](https://antono4.github.io/aplikasi-e-arsip-ci-4/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 13:10:03 WIB** oleh GitHub Actions .</sub>
